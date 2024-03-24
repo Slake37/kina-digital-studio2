@@ -18,9 +18,9 @@ const OurWork = () => {
         <div ref={ref} className="hover:scale-105 transition-all">
           <motion.div
             className="relative  cursor-pointer"
-            initial={{ x: -2500 }}
-            animate={{ x: inView ? 0 : -2500 }}
-            transition={{ ease: "linear", duration: 0.5 }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: inView ? 1 : 0 }}
+            transition={{ ease: "linear", duration: 0.2 }}
           >
             <Image
               src={taxi}
@@ -37,9 +37,9 @@ const OurWork = () => {
         <div ref={ref} className="hover:scale-105 transition-all">
           <motion.div
             className="relative"
-            initial={{ x: -2500 }}
-            animate={{ x: inView ? 0 : -2500 }}
-            transition={{ ease: "linear", duration: 0.5, delay: 0.3 }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: inView ? 1 : 0 }}
+            transition={{ ease: "linear", duration: 0.2, delay: 0.3 }}
           >
             <Image
               src={drivingSchool}
@@ -57,8 +57,8 @@ const OurWork = () => {
         <div ref={ref} className="hover:scale-105 transition-all">
           <motion.div
             className="relative"
-            initial={{ x: -2500 }}
-            animate={{ x: inView ? 0 : -2500 }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: inView ? 1 : 0 }}
             transition={{ ease: "linear", duration: 0.5, delay: 0.5 }}
           >
             <Image
