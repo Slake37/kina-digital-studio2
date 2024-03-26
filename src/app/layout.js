@@ -15,7 +15,10 @@ export default function RootLayout({ children }) {
       <Head>
         <link rel="icon" href="./icons/favicon.ico" />
         <meta property="og:title" content="Kina Digital Studio" />
-        <meta property="og:image" content="https://imgur.com/a/ubcIfyd" />
+        <meta
+          property="og:image"
+          content="https://i.ibb.co/RT5YsLw/Dark-Grey-Minimalist-Photo-Travel-You-Tube-Thumbnail.png"
+        />
 
         <meta
           property="og:description"
