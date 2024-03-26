@@ -23,14 +23,17 @@ const Navbar = () => {
   return (
     <nav className="fixed w-full z-50 bg-[#0B1215]">
       <div className="flex justify-between md:justify-start items-center p-2">
-        <Image
-          src={KinaLogo}
-          width={60}
-          height={60}
-          alt="Kina Digital Studio logo"
-          priority
-          className="bg-[#FAF9F6] p-1 rounded-full "
-        />
+        <Link href={"/"}>
+          <Image
+            src={KinaLogo}
+            width={60}
+            height={60}
+            alt="Kina Digital Studio logo"
+            priority
+            className="bg-[#FAF9F6] p-1 rounded-full "
+          />
+        </Link>
+
         <motion.div
           className="w-full hidden text-right md:flex flex-col justify-center items-end  "
           initial={{ y: -250 }}
@@ -38,49 +41,49 @@ const Navbar = () => {
         >
           <div className="text-[#D7191C] p-2 lg:text-lg flex justify-center items-center gap-2 lg:gap-4">
             <Link
-              href="#"
+              href="/"
               className="flex flex-col justify-center items-center p-1 gap-1 cursor-pointer  hover:scale-110 hover:text-[#FAF9F6] transition-all"
             >
               <IoHomeOutline className="text-xl" />
               Home
             </Link>
             <Link
-              href="#"
+              href="/about"
               className="flex flex-col justify-center items-center p-1 gap-1 cursor-pointer  hover:scale-110 hover:text-[#FAF9F6] transition-all"
             >
               <IoInformationCircleOutline className="text-xl" />
               About Us
             </Link>
             <Link
-              href="#"
+              href="/services"
               className="flex flex-col justify-center items-center p-1 gap-1 cursor-pointer hover:scale-110 hover:text-[#FAF9F6] transition-all"
             >
               <IoCogOutline className="text-xl" />
               Services
             </Link>
             <Link
-              href="#"
+              href="/portfolio"
               className="flex flex-col justify-center items-center p-1 gap-1 cursor-pointer  hover:scale-110 hover:text-[#FAF9F6] transition-all"
             >
               <IoBookOutline className="text-xl" />
               Portfolio
             </Link>
             <Link
-              href="#"
+              href="/blog"
               className="flex flex-col justify-center items-center p-1 gap-1 cursor-pointer  hover:scale-110 hover:text-[#FAF9F6] transition-all"
             >
               <IoNewspaperOutline className="text-xl" />
               Blog
             </Link>
             <Link
-              href="#"
+              href="/testimonials"
               className="flex flex-col justify-center items-center p-1 gap-1 cursor-pointer  hover:scale-110 hover:text-[#FAF9F6] transition-all"
             >
               <IoChatbubbleEllipsesOutline className="text-xl" />
               Testimonials
             </Link>
             <Link
-              href="#"
+              href="/contact"
               className="flex flex-col justify-center items-center p-1 gap-1 cursor-pointer  hover:scale-110 hover:text-[#FAF9F6] transition-all"
             >
               <TfiAgenda className="text-xl" />
@@ -120,51 +123,58 @@ const Navbar = () => {
         }
       >
         <Link
-          href="#"
+          href="/"
           className="flex  justify-center items-center p-1 gap-1 font-semibold text-xl"
+          onClick={() => setOpenMenu(!openMenu)}
         >
           <IoHomeOutline className="text-xl" />
           Home
         </Link>
 
         <Link
-          href="#"
+          href="/about"
           className="flex  justify-center items-center p-1 gap-1 cursor-pointer  font-semibold text-xl"
+          onClick={() => setOpenMenu(!openMenu)}
         >
           <IoInformationCircleOutline className="text-xl" />
           About Us
         </Link>
         <Link
-          href="#"
+          href="/services"
           className="flex  justify-center items-center p-1 gap-1 cursor-pointer font-semibold text-xl"
+          onClick={() => setOpenMenu(!openMenu)}
         >
           <IoCogOutline className="text-xl" />
           Services
         </Link>
         <Link
-          href="#"
-          className="flex  justify-center items-center p-1 gap-1 cursor-pointer  hover:scale-110 font-semibold text-xl"
+          href="/portfolio"
+          className="flex  justify-center items-center p-1 gap-1 cursor-pointer  font-semibold text-xl"
+          onClick={() => setOpenMenu(!openMenu)}
         >
           <IoBookOutline className="text-xl" />
           Portfolio
         </Link>
         <Link
-          href="#"
+          href="/blog"
           className="flex justify-center items-center p-1 gap-1 cursor-pointer  font-semibold text-xl"
+          onClick={() => setOpenMenu(!openMenu)}
         >
           <IoNewspaperOutline className="text-xl" />
           Blog
         </Link>
         <Link
-          href="#"
+          href="/testimonials"
           className="flex  justify-center items-center p-1 gap-1 cursor-pointer font-semibold text-xl"
+          onClick={() => setOpenMenu(!openMenu)}
         >
           <IoChatbubbleEllipsesOutline className="text-xl" />
           Testimonials
         </Link>
         <Link
-          href="#"
+          href="/contact"
           className="flex  justify-center items-center p-1 gap-1 cursor-pointer  font-semibold text-xl"
+          onClick={() => setOpenMenu(!openMenu)}
         >
           <TfiAgenda className="text-xl" />
           Contact Us
