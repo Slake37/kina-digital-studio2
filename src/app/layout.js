@@ -7,6 +7,8 @@ export const metadata = {
   title: "Kina Digital Studio",
   description: "Web design and web development Newcastle-upon-Tyne",
   icons: { icon: "/icons/favicon-16x16.png" },
+  ogImage: "../public/thumbnail.png",
+  ogTitle: "Kina Digital Studio",
 };
 
 export default function RootLayout({ children }) {
@@ -14,11 +16,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Head>
         <link rel="icon" href="./icons/favicon.ico" />
-        <meta property="og:title" content="Kina Digital Studio" />
-        <meta
+        {/* <meta property="og:title" content="Kina Digital Studio" /> */}
+        {/* <meta
           property="og:image"
           content="https://imgtr.ee/images/2024/03/26/64fcb933dfdd6d27b2c891e96676387f.md.png"
-        />
+        /> */}
 
         <meta
           property="og:description"
