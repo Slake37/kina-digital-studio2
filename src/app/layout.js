@@ -19,6 +19,7 @@ export default function RootLayout({ children }) {
           property="og:image"
           content="https://i.ibb.co/B21cQ8M/Dark-Grey-Minimalist-Photo-Travel-You-Tube-Thumbnail.png"
         />
+
         <meta
           property="og:description"
           content="Web design and web development agency based in Newcastle-upon-Tyne, United Kingdom"
