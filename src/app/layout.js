@@ -15,7 +15,10 @@ export default function RootLayout({ children }) {
       <Head>
         <link rel="icon" href="./icons/favicon.ico" />
         <meta property="og:title" content="Kina Digital Studio" />
-        <meta property="og:image" content="https://ibb.co/RT5YsLw" />
+        <meta
+          property="og:image"
+          content="https://imgtr.ee/images/2024/03/26/64fcb933dfdd6d27b2c891e96676387f.png"
+        />
 
         <meta
           property="og:description"
