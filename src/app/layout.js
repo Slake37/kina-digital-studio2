@@ -15,10 +15,7 @@ export default function RootLayout({ children }) {
       <Head>
         <link rel="icon" href="./icons/favicon.ico" />
         <meta property="og:title" content="Kina Digital Studio" />
-        <meta
-          property="og:image"
-          content="https://i.ibb.co/RT5YsLw/Dark-Grey-Minimalist-Photo-Travel-You-Tube-Thumbnail.png"
-        />
+        <meta property="og:image" content="https://ibb.co/RT5YsLw" />
 
         <meta
           property="og:description"
@@ -28,11 +25,7 @@ export default function RootLayout({ children }) {
       </Head>
       <body className="bg-[#0B1215] font-Roboto">
         <link rel="icon" href="/favicon-32x32.png" sizes="any" />
-        <img
-          className="hidden"
-          src="https://i.ibb.co/RT5YsLw/Dark-Grey-Minimalist-Photo-Travel-You-Tube-Thumbnail.png"
-          alt="Dark-Grey-Minimalist-Photo-Travel-You-Tube-Thumbnail"
-        />
+
         <Navbar />
         {children}
         <Footer />
