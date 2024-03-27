@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" href={metadata.icons.icon} />
         <meta property="og:title" content={metadata.ogTitle} />
         <meta property="og:description" content={metadata.description} />
-        <meta property="og:image" content={metadata.ogImage} />
+        <meta property="og:image" content="../../public/thumbnail.png" />
         <meta property="og:type" content="website" />
 
         <meta name="twitter:title" content={metadata.ogTitle} />
