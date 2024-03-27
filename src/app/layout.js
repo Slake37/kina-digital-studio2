@@ -7,7 +7,7 @@ export const metadata = {
   title: "Kina Digital Studio",
   description: "Web design and web development Newcastle-upon-Tyne",
   icons: { icon: "/icons/favicon-16x16.png" },
-  ogImage: "/thumbnail.png",
+  ogImage: "../../thumbnail.png",
   ogTitle: "Kina Digital Studio",
 };
 
@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" href={metadata.icons.icon} />
         <meta property="og:title" content={metadata.ogTitle} />
         <meta property="og:description" content={metadata.description} />
-        <meta property="og:image" content="/thumbnail.png" />
+        <meta property="og:image" content={metadata.ogImage} />
         <meta property="og:type" content="website" />
 
         <meta name="twitter:title" content={metadata.ogTitle} />
