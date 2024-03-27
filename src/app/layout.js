@@ -8,7 +8,7 @@ import Image from "next/image";
 export const metadata = {
   title: "Kina Digital Studio",
   description: "Web design and web development Newcastle-upon-Tyne",
-  icons: { icon: "../../public/favicon-16x16.png" },
+  icons: { icon: "/favicon.ico" },
   ogImage:
     "https://i.ibb.co/B21cQ8M/Dark-Grey-Minimalist-Photo-Travel-You-Tube-Thumbnail.png",
   ogTitle: "Kina Digital Studio",
@@ -38,6 +38,7 @@ export default function RootLayout({ children }) {
         <meta property="og:type" content="article" />
       </Head>
       <body className="bg-[#0B1215] font-Roboto">
+        <link rel="icon" href={metadata.icons.icon} />
         <Image
           src={image}
           width={500}
