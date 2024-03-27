@@ -8,7 +8,7 @@ import Image from "next/image";
 export const metadata = {
   title: "Kina Digital Studio",
   description: "Web design and web development Newcastle-upon-Tyne",
-  icon: "/favicon.ico",
+  icon: "/favicon.png",
   ogImage:
     "https://i.ibb.co/B21cQ8M/Dark-Grey-Minimalist-Photo-Travel-You-Tube-Thumbnail.png",
   ogTitle: "Kina Digital Studio",
