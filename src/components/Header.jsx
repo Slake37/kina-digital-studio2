@@ -2,6 +2,7 @@
 import { Player } from "@lottiefiles/react-lottie-player";
 import { motion } from "framer-motion";
 import animation from "../assets/animation2.json";
+import Link from "next/link";
 const Header = () => {
   return (
     <div className="text-[#FAF9F6] flex flex-col justify-center items-start min-h-screen w-full p-2 max-w-[1440px] mx-auto -z-50 ">
@@ -43,12 +44,16 @@ const Header = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 4, duration: 1, ease: "easeOut" }}
           >
-            <button className="border-2 rounded-md border-[#D7191C] px-3 py-1 hover:scale-110 hover:shadow-md hover:shadow-[#D7191C] transition-all">
-              Get a Quote
-            </button>
-            <button className="bg-[#FAF9F6] text-[#0B1215] px-3 py-1 rounded-md hover:scale-110 hover:shadow-md hover:shadow-[#FAF9F6] transition-all">
-              About Us
-            </button>
+            <Link href={"/contact"}>
+              <button className="border-2 rounded-md border-[#D7191C] px-3 py-1 hover:scale-110 hover:shadow-md hover:shadow-[#D7191C] transition-all">
+                Get a Quote
+              </button>
+            </Link>
+            <Link href={"/about"}>
+              <button className="bg-[#FAF9F6] text-[#0B1215] px-3 py-1 rounded-md hover:scale-110 hover:shadow-md hover:shadow-[#FAF9F6] transition-all">
+                About Us
+              </button>
+            </Link>
           </motion.div>
         </div>
       </div>
