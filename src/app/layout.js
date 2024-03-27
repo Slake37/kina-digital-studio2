@@ -2,6 +2,8 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Head from "next/head";
+import image from "../../thumbnail.png";
+import Image from "next/image";
 
 export const metadata = {
   title: "Kina Digital Studio",
@@ -36,8 +38,7 @@ export default function RootLayout({ children }) {
         <meta property="og:type" content="article" />
       </Head>
       <body className="bg-[#0B1215] font-Roboto">
-        <link rel="icon" href="/favicon-32x32.png" sizes="any" />
-
+        <Image src={image} width={500} height={500} className="hidden" />
         <Navbar />
         {children}
         <Footer />
