@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
       <Head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
-        <link rel="icon" href={metadata.icons.icon} />
+        <link rel="icon" href={metadata.icon} />
         <meta property="og:title" content={metadata.ogTitle} />
         <meta property="og:description" content={metadata.description} />
         <meta property="og:image" content={metadata.ogImage} />
