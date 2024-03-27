@@ -7,7 +7,7 @@ export const metadata = {
   title: "Kina Digital Studio",
   description: "Web design and web development Newcastle-upon-Tyne",
   icons: { icon: "/icons/favicon-16x16.png" },
-  ogImage: "../../thumbnail.png",
+  ogImage: "https://kina-digital-studio2.vercel.app/thumbnail.png",
   ogTitle: "Kina Digital Studio",
 };
 
