@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
           name="keywords"
           content="web design, web development, Newcastle-upon-Tyne, digital studio"
         />
-        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <meta property="og:title" content={metadata.ogTitle} />
         <meta property="og:description" content={metadata.description} />
         <meta property="og:image" content={metadata.ogImage} />
