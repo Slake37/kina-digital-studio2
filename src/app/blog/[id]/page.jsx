@@ -17,6 +17,7 @@ const BlogPostDetails = ({ params }) => {
           content={selectedBlogPost.title}
           key="title"
         />
+        <meta name="description" content={selectedBlogPost.title} />
       </Head>
       <Image
         src={selectedBlogPost.image}

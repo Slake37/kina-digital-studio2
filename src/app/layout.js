@@ -8,7 +8,7 @@ import Image from "next/image";
 export const metadata = {
   title: "Kina Digital Studio",
   description: "Web design and web development Newcastle-upon-Tyne",
-  icon: "/favicon.png",
+  icon: "/favicon",
   ogImage:
     "https://i.ibb.co/B21cQ8M/Dark-Grey-Minimalist-Photo-Travel-You-Tube-Thumbnail.png",
   ogTitle: "Kina Digital Studio",
@@ -20,12 +20,17 @@ export default function RootLayout({ children }) {
       <Head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
-        <link rel="icon" href={metadata.icon} />
+        <meta
+          name="keywords"
+          content="web design, web development, Newcastle-upon-Tyne, digital studio"
+        />
+        <link rel="icon" type="image/x-icon" href={metadata.icon} />
         <meta property="og:title" content={metadata.ogTitle} />
         <meta property="og:description" content={metadata.description} />
         <meta property="og:image" content={metadata.ogImage} />
         <meta property="og:type" content="website" />
 
+        <link rel="manifest" href="/site.webmanifest"></link>
         <meta name="twitter:title" content={metadata.ogTitle} />
         <meta name="twitter:description" content={metadata.description} />
         <meta name="twitter:image" content={metadata.ogImage} />
