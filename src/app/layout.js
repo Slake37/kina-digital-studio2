@@ -13,6 +13,7 @@ export const metadata = {
     "https://i.ibb.co/B21cQ8M/Dark-Grey-Minimalist-Photo-Travel-You-Tube-Thumbnail.png",
   ogTitle: "Kina Digital Studio",
   keywords: "Web design, Web development,Newcastle-upon-Tyne",
+  googleVerification: "icqMhhKujOX7gusIln6Rux14XdGhMWGvHuVvprmToa4",
 };
 
 export default function RootLayout({ children }) {
@@ -20,6 +21,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Head>
         <title>{metadata.title}</title>
+        <meta
+          name="google-site-verification"
+          content={metadata.googleVerification}
+        />
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
