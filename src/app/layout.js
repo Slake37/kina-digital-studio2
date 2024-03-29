@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
         <title>{metadata.title}</title>
         <meta
           name="google-site-verification"
-          content={metadata.googleVerification}
+          content="icqMhhKujOX7gusIln6Rux14XdGhMWGvHuVvprmToa4"
         />
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
