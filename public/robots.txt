@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://kinadigitalstudio.com
+
+# Sitemaps
+Sitemap: https://kinadigitalstudio.com/sitemap.xml
+Sitemap: https://kinadigitalstudio.com/server-sitemap-index.xml
