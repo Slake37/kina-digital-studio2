@@ -12,6 +12,7 @@ export const metadata = {
   ogImage:
     "https://i.ibb.co/B21cQ8M/Dark-Grey-Minimalist-Photo-Travel-You-Tube-Thumbnail.png",
   ogTitle: "Kina Digital Studio",
+  keywords: "Web design, Web development,Newcastle-upon-Tyne",
 };
 
 export default function RootLayout({ children }) {
@@ -20,10 +21,7 @@ export default function RootLayout({ children }) {
       <Head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
-        <meta
-          name="keywords"
-          content="web design, web development, Newcastle-upon-Tyne, digital studio"
-        />
+        <meta name="keywords" content={metadata.keywords} />
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <meta property="og:title" content={metadata.ogTitle} />
         <meta property="og:description" content={metadata.description} />
