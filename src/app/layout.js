@@ -30,7 +30,9 @@ export default function RootLayout({ children }) {
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <meta property="og:title" content={metadata.ogTitle} />
         <meta property="og:description" content={metadata.description} />
-        <meta property="og:image" content={metadata.ogImage} />
+        <meta property="og:image:url" content={metadata.ogImage} />
+        <meta property="og:image:width" content="800" />
+        <meta property="og:image:height" content="600" />
         <meta property="og:type" content="website" />
 
         <link rel="manifest" href="/site.webmanifest"></link>
