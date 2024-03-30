@@ -7,7 +7,7 @@ export const metadata = {
   title:
     "Kina Digital Studio | Newcastle-upon-Tyne | Web design and Web development",
   description:
-    "Web design and web development from Newcastle-upon-Tyne, United Kingdom",
+    "Kina Digital Studio offers top-notch web design and development services in Newcastle-upon-Tyne, UK. Our expert team crafts bespoke websites tailored to your unique needs, ensuring stunning visuals, seamless functionality, and optimal user experience. With a focus on creativity, professionalism, and affordability, we bring your digital vision to life. Contact us today to elevate your online presence with cutting-edge web solutions.",
   icon: "/favicon",
   // ogImage:
   //   "https://i.ibb.co/sH2080c/Dark-Grey-Minimalist-Photo-Travel-You-Tube-Thumbnail.png",
