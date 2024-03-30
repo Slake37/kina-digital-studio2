@@ -1,16 +1,12 @@
-import CustomHead from "@/components/CustomHead";
+import Head from "next/head";
 import React from "react";
 
 const About = () => {
   return (
     <div className="max-w-[1220px] mx-auto text-[#FAF9F6] flex flex-col justify-center items-start min-h-screen py-[7rem] px-3 gap-5">
-      <CustomHead
-        title="About Us"
-        description="As a pioneering entity in the realm of web development, we
-          pride ourselves on our ability to craft websites and web applications
-          that transcend the ordinary and redefine excellence."
-        keywords="webdesign,webdevelopment,Newcastele-upon-Tyne,"
-      />
+      <Head>
+        <title>About Us</title>
+      </Head>
       <h1 className=" text-4xl font-semibold text-[#D7191C]">About Us.</h1>
       <div className="flex flex-col justify-start items-start gap-3">
         <p className="leading-8">

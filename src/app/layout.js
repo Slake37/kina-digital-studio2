@@ -2,8 +2,6 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Head from "next/head";
-import image from "../../thumbnail.png";
-import Image from "next/image";
 
 export const metadata = {
   title:
@@ -14,12 +12,13 @@ export const metadata = {
   // ogImage:
   //   "https://i.ibb.co/sH2080c/Dark-Grey-Minimalist-Photo-Travel-You-Tube-Thumbnail.png",
   // ogTitle: "Kina Digital Studio",
-  keywords: "Web design, Web development,Newcastle-upon-Tyne, United Kingdom",
+  keywords:
+    "Web design Newcastle, Web development Newcastle, Newcastle web design, Newcastle web developmentWeb design services Newcastle, Web development services Newcastle, Website design Newcastle, Website development Newcastle, Newcastle upon Tyne web design, Newcastle upon Tyne web development, Affordable web design Newcastle, Affordable web development Newcastle, Professional web design Newcastle, Professional web development Newcastle, Best web design company Newcastle, Best web development company Newcastle, Responsive web design Newcastle, SEO-friendly web design Newcastle, Custom web design Newcastle, Custom web development Newcastle",
   googleVerification: "icqMhhKujOX7gusIln6Rux14XdGhMWGvHuVvprmToa4",
   openGraph: {
     title: "Kina Digital Studio",
     description:
-      "Web design and web development from Newcastle-upon-Tyne, United Kingdom",
+      "Kina Digital Studio offers top-notch web design and development services in Newcastle-upon-Tyne, UK. Our expert team crafts bespoke websites tailored to your unique needs, ensuring stunning visuals, seamless functionality, and optimal user experience. With a focus on creativity, professionalism, and affordability, we bring your digital vision to life. Contact us today to elevate your online presence with cutting-edge web solutions.",
     url: "https://kinadigitalstudio.com",
     siteName: "Kina Digital Studio",
     images: [
@@ -102,13 +101,6 @@ export default function RootLayout({ children }) {
         <meta property="og:type" content="article" />
       </Head>
       <body className="bg-[#0B1215] font-Roboto">
-        <Image
-          src={image}
-          width={500}
-          height={500}
-          alt="Kina Digital Studio Thumbnail"
-          className="hidden"
-        />
         <Navbar />
         {children}
         <Footer />
