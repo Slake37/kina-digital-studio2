@@ -9,8 +9,7 @@ export const metadata = {
   title: "Kina Digital Studio",
   description: "Web design and web development Newcastle-upon-Tyne",
   icon: "/favicon",
-  ogImage:
-    "https://i.ibb.co/B21cQ8M/Dark-Grey-Minimalist-Photo-Travel-You-Tube-Thumbnail.png",
+  ogImage: "https://i.ibb.co/B21cQ8M/Kina-Digital-Studio-Thumbnail.png",
   ogTitle: "Kina Digital Studio",
   keywords: "Web design, Web development,Newcastle-upon-Tyne",
   googleVerification: "icqMhhKujOX7gusIln6Rux14XdGhMWGvHuVvprmToa4",
