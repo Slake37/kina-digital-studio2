@@ -1,6 +1,7 @@
 import taxi from "../../assets/taxi.jpg";
 import drivingSchool from "../../assets/drivingSchool.jpg";
 import maintenance from "../../assets/maintenance.jpg";
+import movies from "../../assets/movies.jpg";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -55,6 +56,22 @@ const Portfolio = () => {
           />
           <p className="absolute bottom-0 w-full bg-[#FAF9F6]/50 text-xl p-2">
             Maintenance.ro
+          </p>
+        </Link>
+        <Link
+          href={"https://moviezzz-swart.vercel.app/"}
+          target="_blank"
+          className="relative"
+        >
+          <Image
+            src={movies}
+            height={2250}
+            width={2250}
+            alt="Movies"
+            className="rounded-md"
+          />
+          <p className="absolute bottom-0 w-full bg-[#FAF9F6]/50 text-xl p-2">
+            Movies Database
           </p>
         </Link>
       </div>
